@@ -1,0 +1,2 @@
+exp_id,dataset,method,baseline,metrics,config_hash,results_path,notes
+pilot_20260116_183148,pilot_mutualism_vs_antagonism,curvature_features_pilot,,,pilot_v1,data/features/curvature_features.csv,split=data/splits/pilot_mutualism_vs_antagonism.csv; max_edges=1000; processed=97; skipped=3; cpu

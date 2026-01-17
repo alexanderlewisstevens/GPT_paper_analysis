@@ -1,0 +1,20 @@
+# OS
+.DS_Store
+
+# Python venvs
+.venv/
+.venv*/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local data and outputs
+data/Classifying_Bipartite_Networks/
+data/cs_mount/
+data/cs_repo.sparsebundle/
+data/features/
+outputs/
+
+# Scratch
+*.log

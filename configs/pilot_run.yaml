@@ -1,0 +1,11 @@
+exp_id: pilot_20260116_183148
+dataset: pilot_mutualism_vs_antagonism
+split_path: data/splits/pilot_mutualism_vs_antagonism.csv
+per_label: 50
+seed: 7
+max_edges: 1000
+method: curvature_features_pilot
+backend: GraphRicciCurvature
+python: python3
+output_path: data/features/curvature_features.csv
+notes: "CPU run; 97 processed, 3 skipped"
