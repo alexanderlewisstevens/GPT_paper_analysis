@@ -22,6 +22,17 @@ python3 scripts/compute_curvature_features.py \
   --max-edges 1000
 ```
 
+## 5) Curvature extraction (graph-curvature-server backend)
+```
+python3 scripts/compute_curvature_features_gcs.py \
+  --split data/splits/pilot_mutualism_vs_antagonism.csv \
+  --max-edges 1000 \
+  --output data/features/curvature_features_gcs.csv
+```
+Defaults to fast node-based Bakry-Emery measures. To include slower edge-based
+Ollivier/LLY measures, add `--full` (and optional
+`--with-ollivier-idleness` / `--with-nonnorm-lly`).
+
 ## Notes
 - Use `DATASET_ROOT` to point to a custom dataset clone.
 - Third-party code lives under `third_party/` with attribution.

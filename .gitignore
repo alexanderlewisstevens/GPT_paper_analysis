@@ -10,10 +10,8 @@ __pycache__/
 *.pyc
 
 # Local data and outputs
-data/Classifying_Bipartite_Networks/
-data/cs_mount/
-data/cs_repo.sparsebundle/
-data/features/
+data/*
+!data/README.md
 outputs/
 
 # Scratch

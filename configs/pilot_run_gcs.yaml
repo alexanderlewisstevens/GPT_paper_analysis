@@ -1,0 +1,10 @@
+exp_id: pilot_gcs_20260116_192924
+dataset: pilot_mutualism_vs_antagonism
+split_path: data/splits/pilot_mutualism_vs_antagonism.csv
+max_edges: 1000
+method: curvature_features_gcs_pilot
+backend: graph-curvature-server
+idleness: 0.5
+bakry_dimension: 0
+output_path: data/features/curvature_features_gcs.csv
+notes: "CPU run; processed 36 before 120s timeout; measures=orc,orc_idl,lly,nnlly,bakry_norm,bakry_non_norm"

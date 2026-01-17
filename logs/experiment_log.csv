@@ -1,2 +1,4 @@
 exp_id,dataset,method,baseline,metrics,config_hash,results_path,notes
 pilot_20260116_183148,pilot_mutualism_vs_antagonism,curvature_features_pilot,,,pilot_v1,data/features/curvature_features.csv,split=data/splits/pilot_mutualism_vs_antagonism.csv; max_edges=1000; processed=97; skipped=3; cpu
+pilot_20260116_191931,pilot_mutualism_vs_antagonism,curvature_features_pilot,,,pilot_v1,data/features/curvature_features.csv,split=data/splits/pilot_mutualism_vs_antagonism.csv; max_edges=1000; processed=97; skipped=3; cpu; backend=GraphRicciCurvature
+pilot_gcs_20260116_192924,pilot_mutualism_vs_antagonism,curvature_features_gcs_pilot,,,pilot_gcs_v1,data/features/curvature_features_gcs.csv,"split=data/splits/pilot_mutualism_vs_antagonism.csv; max_edges=1000; processed=36; timeout=120s; cpu; backend=graph-curvature-server; measures=orc,orc_idl,lly,nnlly,bakry_norm,bakry_non_norm"
